@@ -1,8 +1,12 @@
 # Fcitx5 capsule themes
 
-![WeChatGreen candidate panel](previews/wechat-green.png)
+![Candidate panel](previews/wechat-green.png)
 
-Screenshot settings: `WeChatGreen[zxzx]`, horizontal candidates, **Noto
+![Candidate panel](previews/candidate-panel-2.png)
+
+![Candidate panel](previews/candidate-panel-3.png)
+
+Screenshot settings: horizontal candidates, **Noto
 Fangsong KSS Rotated 13**, `ForceWaylandDPI=0` (no forced font DPI), and
 `EnableFractionalScale=True`. See [appearance notes](#appearance) below.
 
