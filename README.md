@@ -1,5 +1,7 @@
 # Fcitx5 capsule themes
 
+![WeChatGreen candidate panel](previews/wechat-green.png)
+
 Three compact, translucent dark themes designed by **zxzx** for Fcitx5 Classic UI.
 They share a capsule-shaped panel and candidate highlight, with coordinated
 colors for the candidate list and menu.
