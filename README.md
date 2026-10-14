@@ -2,6 +2,10 @@
 
 ![WeChatGreen candidate panel](previews/wechat-green.png)
 
+Screenshot settings: `WeChatGreen[zxzx]`, horizontal candidates, **Noto
+Fangsong KSS Rotated 13**, `ForceWaylandDPI=0` (no forced font DPI), and
+`EnableFractionalScale=True`. See [appearance notes](#appearance) below.
+
 Three compact, translucent dark themes designed by **zxzx** for Fcitx5 Classic UI.
 They share a capsule-shaped panel and candidate highlight, with coordinated
 colors for the candidate list and menu.
@@ -44,8 +48,24 @@ other Fcitx5 frontends may render their own candidate panels.
 
 ## Appearance
 
-The geometry was tuned with Noto Fangsong KSS Rotated at size 13 and 96 DPI.
-Other fonts and display scales can change the result. Blur depends on the
+The geometry was tuned with Noto Fangsong KSS Rotated at size 13 and a 96-DPI
+font baseline. The screenshot uses the following Classic UI settings:
+
+```ini
+Font="Noto Fangsong KSS Rotated 13"
+ForceWaylandDPI=0
+EnableFractionalScale=True
+Vertical Candidate List=False
+```
+
+On Wayland, `ForceWaylandDPI=0` leaves font DPI at the normal 96-DPI baseline,
+combined with the compositor's screen scale; it does not force the final
+output to 96 DPI. Enabling fractional scaling allows it when the compositor
+supports it, rather than selecting a particular scale factor.
+
+Other fonts and display scales can change the result. Font size and forced
+font DPI do not proportionally scale every SVG corner and theme margin;
+increasing them can change the capsule proportions. Blur depends on the
 desktop compositor; the themes request it but cannot guarantee its availability.
 
 Colors and margins are defined in each `theme.conf`. The SVG files define the
