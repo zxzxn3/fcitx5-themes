@@ -1,6 +1,7 @@
 # Track only our themes.
 /*
 !/.gitignore
+!/README.md
 !/DustyRose\[zxzx\]/
 !/WeChatGreen\[zxzx\]/
 !/GraphiteSilver\[zxzx\]/
