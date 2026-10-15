@@ -14,6 +14,9 @@ Three compact, translucent dark themes designed by **zxzx** for Fcitx5 Classic U
 They share a capsule-shaped panel and candidate highlight, with coordinated
 colors for the candidate list and menu.
 
+Tested with Fcitx5 5.1.23 and used in a daily desktop setup. See the appearance
+notes below for font and scaling settings.
+
 | Theme | Accent |
 | --- | --- |
 | `WeChatGreen[zxzx]` | Green |
